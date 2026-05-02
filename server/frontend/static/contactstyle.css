@@ -1,0 +1,68 @@
+#contact-page
+{
+    display: grid;
+    grid-template-rows: 300px 400px;
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+#contact-top
+{
+    background-image: url('/static/contact_cars.png');
+    background-position: center center;
+}
+
+#contact-overlay
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contact-overlay h1
+{
+    font-size: 300%;
+    padding: 20px;
+    border: white solid 2px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#contact-content
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contact-img
+{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#contact-img img
+{
+    width: 70%;
+    opacity: 0.7;
+}
+
+#contact-item
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#contact-item img
+{
+    height: 100%;
+    width: 100%;
+}
